@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+.Prenotazione {
+  .overlay {
+    position: fixed;
+    top: 0;
+    width: 96vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.676);
+  }
+  .formPrenotazione {
+    position: fixed;
+    display: flex;
+    top: 20%;
+    left: 30%;
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+    background-color: $primary-color;
+    justify-content: center;
+    align-items: center;
+    color: $secondary-color;
+  }
+  h2 {
+    text-align: center;
+    color: $color-title;
+  }
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 4px;
+    width: 300px;
+  }
+}
