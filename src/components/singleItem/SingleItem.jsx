@@ -33,10 +33,6 @@ const SingleItem = ({ data, setContextItem }) => {
             src={data.strDrinkThumb}
             alt={data.strDrink}
           />
-          <div className={styles.carousel}>
-            <button className={styles.btnIndietro}>Indietro</button>
-            <button className={styles.btnAvanti}>Avanti</button>
-          </div>
         </div>
       </div>
     </div>

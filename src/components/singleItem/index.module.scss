@@ -57,31 +57,6 @@
       object-fit: cover;
     }
   }
-  .carousel {
-    position: absolute;
-    left: 50px;
-    bottom: 0;
-    .btnIndietro {
-      border-radius: 12px;
-      width: 100px;
-      background-color: darkgoldenrod;
-      color: rgb(202, 207, 206);
-      cursor: pointer;
-      &:hover {
-        transform: scale(1.2);
-      }
-    }
-    .btnAvanti {
-      border-radius: 12px;
-      width: 100px;
-      background-color: darkgoldenrod;
-      color: rgb(202, 207, 206);
-      cursor: pointer;
-      &:hover {
-        transform: scale(1.2);
-      }
-    }
-  }
 }
 @media screen and (min-width: 600px) {
   .SingleItem {
