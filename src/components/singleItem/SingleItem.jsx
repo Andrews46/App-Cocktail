@@ -1,3 +1,4 @@
+import { FaArrowCircleLeft } from "react-icons/fa";
 import styles from "./index.module.scss";
 
 const SingleItem = ({ data, setContextItem }) => {
@@ -23,7 +24,7 @@ const SingleItem = ({ data, setContextItem }) => {
             <li>{data.strInstructionsIT}</li>
           </ul>
           <button className={styles.close} onClick={onHandleClick}>
-            X
+            <FaArrowCircleLeft />
           </button>
         </div>
         <div className={styles.image}>
